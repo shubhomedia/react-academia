@@ -1,11 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import About from '../About/About';
 import SingleCourse from '../SingleCourse/SingleCourse';
-import Slider from '../Slider/Slider';
-import './Home.css';
 
-const Home = () => {
+const Courses = (props) => {
     const [course, setCourse] = useState([]);
 
     useEffect(() => {
@@ -13,11 +9,8 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setCourse(data))
     }, []);
-
     return (
         <div>
-            <Slider></Slider>
-            <About></About>
             <h2>Our Courses</h2>
             <div className='container'>
                 <div className='row gx-5 gy-5'>
@@ -36,4 +29,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Courses;

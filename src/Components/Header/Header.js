@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { logo } from '../../logo.png'
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -10,13 +10,15 @@ const Header = () => {
                     <Navbar.Brand href="#home">ACADEMIA
 
                     </Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Services</Nav.Link>
-                        <Nav.Link href="#pricing">About</Nav.Link>
-                        <Nav.Link href="#pricing">Payment</Nav.Link>
-                        <Nav.Link href="#pricing">Contact</Nav.Link>
-                    </Nav>
+                    <div className="me-auto">
+                        <nav className='navbar-nav'>
+                            <NavLink className="nav-link" to="/home">Home</NavLink>
+                            <NavLink className="nav-link" to="/about">About</NavLink>
+                            <NavLink className="nav-link" to="/courses">Courses</NavLink>
+                            <NavLink className="nav-link" to="/payment">Payment</NavLink>
+                            <NavLink className="nav-link" to="/contact">Contact</NavLink>
+                        </nav>
+                    </div>
                 </Container>
             </Navbar>
         </div>
