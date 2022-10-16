@@ -25,28 +25,28 @@
     "title": "Librarian",
     "fee": 249,
     "description": "feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl",
-    "thumb": "https://api.lorem.space/image?w=401&h=300"
+    "thumb": "https://loremflickr.com/402/301"
   },
   {
     "id": 5,
     "title": "Design Engineer",
     "fee": 203,
     "description": "dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur",
-    "thumb": "https://api.lorem.space/image?w=402&h=300"
+    "thumb": "https://loremflickr.com/401/301"
   },
   {
     "id": 6,
     "title": "Speech Pathologist",
     "fee": 207,
     "description": "metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede",
-    "thumb": "https://api.lorem.space/image?w=403&h=300"
+    "thumb": "https://loremflickr.com/403/301"
   },
   {
     "id": 7,
     "title": "Assistant Media Planner",
     "fee": 212,
     "description": "est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
-    "thumb": "https://api.lorem.space/image?w=404&h=300"
+    "thumb": "https://loremflickr.com/402/302"
   },
   {
     "id": 8,
